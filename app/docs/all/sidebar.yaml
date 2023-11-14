@@ -1,0 +1,13 @@
+items:
+-   label: 必安
+    file: README.md
+-   label: 视频
+    file: video.md
+-   label: 音乐
+    file: music.md
+-   label: 图片
+    file: image.md
+-   label: 系统
+    file: system.md
+-   label: 破解
+    file: crack.md
