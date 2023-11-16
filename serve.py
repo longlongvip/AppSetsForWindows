@@ -1,7 +1,13 @@
 import os
+import json
+
+with open('project.json', 'r') as f:
+    data = json.load(f)
+
+project_name = data['name']
 
 cmds = [
-    'cd app && teedoc serve',
+    f'cd {project_name} && teedoc serve',
 ]
 
 for cmd in cmds:
